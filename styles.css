@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url("imgs/img10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: slideshow 25s infinite;
+}
+main{
+    padding: 20px;
+}
+@keyframes slideshow {
+    0%, 100% { background-image: url("imgs/img10.jpg");
+            opacity: 4; }
+    25% { background-image: url("imgs/img11.jpg");
+        opacity: 4; }
+    50% { background-image: url("imgs/img12.jpg");
+        opacity: 4; }
+    75% { background-image: url("imgs/img13.jpg");
+        opacity: 4; }
+  }
+
+header{
+    background-color: #ff66;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 5px;
+}
+
+nav{
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a{
+    color: #00fdfd;
+    text-decoration: none;
+    margin-right: 10px;
+}
+footer{
+    background-color: #222;
+    color: #00fdfd;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+main h2{
+    color: #333;
+}
+
+main p{
+    font-weight: 750;
+    color: #000;
+    font
+}
+
+main h2:first-of-type{
+    color: #134567;
+}
+.index{
+    height: 1%;
+    width: 100%;
+    position: absolute;
+}
+.one{
+    width: 98%;
+    height: 215%;
+    position: absolute;
+    background-color: #060971;
+    opacity: 0.2;
+    border-radius: 0.6rem;
+}
+.two{
+    width: 98%;
+    height: 192%;
+    position: absolute;
+    background-color: #060971;
+    opacity: 0.2;
+    border-radius: 0.6rem;
+}
+.three{
+    width: 98%;
+    height: 125%;
+    position: absolute;
+    background-color: #060971;
+    opacity: 0.2;
+    border-radius: 0.6rem;
+}
+.four{
+    width: 98%;
+    height: 226%;
+    position: absolute;
+    background-color: #060971;
+    opacity: 0.2;
+    border-radius: 0.6rem;
+}
+.five{
+    width: 98%;
+    height: 192%;
+    position: absolute;
+    background-color: #060971;
+    opacity: 0.2;
+    border-radius: 0.6rem;
+}
+.six{
+    width: 98%;
+    height: 112%;
+    position: absolute;
+    background-color: #060971;
+    opacity: 0.2;
+    border-radius: 0.6rem;
+}
+.svn{
+    width: 98%;
+    height: 156%;
+    position: absolute;
+    background-color: #060971;
+    opacity: 0.2;
+    border-radius: 0.6rem;
+}
+.eyt{
+    width: 98%;
+    height: 138%;
+    position: absolute;
+    background-color: #060971;
+    opacity: 0.2;
+    border-radius: 0.6rem;
+}
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
